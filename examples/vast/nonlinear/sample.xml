@@ -1,24 +1,23 @@
-<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
-    <script src="chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js" />
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
     <Ad id="1234567">
         <InLine>
             <AdSystem>SampleAdSystem</AdSystem>
             <AdTitle>Linear SIMID Example</AdTitle>
             <Description>SIMID Linear Video Ad</Description>
-            <Error>https://www.example.com/error</Error>
-            <Impression>https://www.example.com/impression</Impression>
+            <Error><![CDATA[https://www.example.com/error]]></Error>
+            <Impression><![CDATA[https://www.example.com/impression]]></Impression>
             <Creatives>
                 <Creative>
-                    <NonLinear>
-                         <IFrameResource type="text/html" apiFramework="SIMID">
-                             <![CDATA[https://simid.pages.dev/examples/creatives/banner_nonlinear.html]]>
-                         </IFrameResource>
-                        <AdParameters>
-                            <![CDATA[{adid:345893,cturi:"https://theonepixl.com"}]>
-                        </AdParameters>
-
-                    </NonLinear>
+                    <NonLinearAds>
+                        <NonLinear width="300" height="50" apiFramework="SIMID">
+                            <IFrameResource>
+                                <![CDATA[https://simid.pages.dev/examples/creatives/banner_nonlinear.html]]>
+                            </IFrameResource>
+                            <AdParameters>
+                                <![CDATA[{"adid":345893, "cturi":"https://theonepixl.com"}]]>
+                            </AdParameters>
+                        </NonLinear>
+                    </NonLinearAds>
                 </Creative>
             </Creatives>
         </InLine>
