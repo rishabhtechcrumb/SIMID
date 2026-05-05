@@ -29,6 +29,7 @@
                             <Tracking event="fullscreen"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=fullscreen]]></Tracking>
                             <Tracking event="creativeView"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=creativeView]]></Tracking>
                             <Tracking event="acceptInvitation"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=acceptInvitation]]></Tracking>
+                            <Tracking event="skip"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=skip]]></Tracking>
                         </TrackingEvents>
                         <VideoClicks>
                             <ClickThrough id="123"><![CDATA[https://performoo.com]]></ClickThrough>
