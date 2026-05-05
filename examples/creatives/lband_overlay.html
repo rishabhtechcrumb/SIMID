@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>L-Band SIMID Overlay</title>
+
+  <script src="../simid_protocol.js"></script>
+  <script src="base_simid_creative.js"></script>
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    #lband-container {
+      position: absolute;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+
+    #lband-vertical {
+      position: absolute;
+      width: 120px;
+      background: linear-gradient(180deg, rgba(0,0,0,0.85), rgba(0,0,0,0.5));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: auto;
+    }
+
+    #lband-horizontal {
+      position: absolute;
+      height: 100px;
+      background: linear-gradient(90deg, rgba(0,0,0,0.85), rgba(0,0,0,0.5));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: auto;
+    }
+
+    .cta {
+      background: #ffcc00;
+      color: black;
+      padding: 10px 14px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    #info {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: green;
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="lband-container">
+    <div id="lband-vertical">
+      <div class="cta" id="cta-vertical">Click</div>
+    </div>
+    <div id="lband-horizontal">
+      <div class="cta" id="cta-horizontal">Shop Now</div>
+    </div>
+  </div>
+
+  <div id="info">L-Band Ad</div>
+
+  <script>
+    class LBandCreative extends BaseSimidCreative {
+      constructor() {
+        super();
+
+        this.vertical = document.getElementById('lband-vertical');
+        this.horizontal = document.getElementById('lband-horizontal');
+
+        this.addCTAEvents_();
+      }
+
+      onInit(eventData) {
+        super.onInit(eventData);
+        this.updateLayout_();
+        console.log("INIT received", this.environmentData);
+      }
+
+      onReceiveResize(eventData) {
+        super.onReceiveResize(eventData);
+        this.updateLayout_();
+        console.log("RESIZE received", this.environmentData);
+      }
+
+      updateLayout_() {
+        if (!this.environmentData || !this.environmentData.videoDimensions) return;
+
+        const video = this.environmentData.videoDimensions;
+
+        // LEFT + TOP L-band
+        this.vertical.style.left = video.x + 'px';
+        this.vertical.style.top = video.y + 'px';
+        this.vertical.style.height = video.height + 'px';
+
+        this.horizontal.style.left = video.x + 'px';
+        this.horizontal.style.top = video.y + 'px';
+        this.horizontal.style.width = video.width + 'px';
+      }
+
+      addCTAEvents_() {
+        const safeClick = (url) => {
+          this.simidProtocol.sendMessage(
+            CreativeMessage.CLICK_THRU,
+            {
+              url: url,
+              clickThruId: "default",
+              playerHandles: true
+            }
+          ).then((res) => {
+            console.log("CLICK_THRU success", res);
+          }).catch((err) => {
+            console.log("CLICK_THRU failed, fallback", err);
+            window.open(url, "_blank");
+          });
+        };
+
+        document.getElementById('cta-vertical')
+          .addEventListener('click', () => safeClick("https://example.com"));
+
+        document.getElementById('cta-horizontal')
+          .addEventListener('click', () => safeClick("https://example.com"));
+      }
+
+      onTimeUpdate(data) {
+        super.onTimeUpdate(data);
+        document.getElementById('info').innerText =
+          "Time: " + this.videoState.currentTime;
+      }
+    }
+
+    const creative = new LBandCreative();
+    creative.ready();
+  </script>
+</body>
+</html>
