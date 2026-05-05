@@ -5,38 +5,41 @@
             <AdSystem>SampleAdSystem</AdSystem>
             <AdTitle>Linear SIMID Example</AdTitle>
             <Description>SIMID Linear Video Ad</Description>
+
             <Error>
-                <![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=aderror]]>
+                <![CDATA[https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=aderror&type=[ERRORCODE]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ts=[TIMESTAMP]&asset=[ASSETURL]]]>
             </Error>
+
             <Impression>
-                <![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=impression]]>
+                <![CDATA[https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=impression&event=adtag&tagID=guhaiuro4&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ifa=[IFA]&latlon=[LATLON]&gdpr=[GDPRCONSENT]&limit_ad=[LIMITADTRACKING]]]>
             </Impression>
+
             <Creatives>
                 <Creative sequence="1">
-                    <Linear>
+                    <Linear skipoffset="00:00:05">
                         <Duration>00:00:52</Duration>
                         <TrackingEvents>
-                            <Tracking event="start"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=start]]></Tracking>
-                            <Tracking event="firstQuartile"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q1]]></Tracking>
-                            <Tracking event="midpoint"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q2]]></Tracking>
-                            <Tracking event="thirdQuartile"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q3]]></Tracking>
-                            <Tracking event="complete"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Complete]]></Tracking>
-                            <Tracking event="mute"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=mute]]></Tracking>
-                            <Tracking event="unmute"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=unmute]]></Tracking>
-                            <Tracking event="rewind"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=rewind]]></Tracking>
-                            <Tracking event="pause"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=pause]]></Tracking>
-                            <Tracking event="resume"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=resume]]></Tracking>
-                            <Tracking event="fullscreen"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=fullscreen]]></Tracking>
-                            <Tracking event="creativeView"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=creativeView]]></Tracking>
-                            <Tracking event="acceptInvitation"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=acceptInvitation]]></Tracking>
-                            <Tracking event="skip"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=skip]]></Tracking>
+                            <Tracking event="start"><![CDATA[https://trac-b0.performoo.com/capture?action=start&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&pos=[ADPOSITION]&pod=[PODSEQUENCE]&break=[BREAKID]]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://trac-b0.performoo.com/capture?action=q1&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&state=[PLAYERSTATE]]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://trac-b0.performoo.com/capture?action=q2&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&state=[PLAYERSTATE]]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://trac-b0.performoo.com/capture?action=q3&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&state=[PLAYERSTATE]]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://trac-b0.performoo.com/capture?action=Complete&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]]]></Tracking>
+                            
+                            <Tracking event="mute"><![CDATA[https://trac-b0.performoo.com/capture?action=mute&event=adtag&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&state=[PLAYERSTATE]]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://trac-b0.performoo.com/capture?action=unmute&event=adtag&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&state=[PLAYERSTATE]]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://trac-b0.performoo.com/capture?action=pause&event=adtag&elapsedSeconds=[CONTENTPLAYHEAD]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]]]></Tracking>
+                            <Tracking event="resume"><![CDATA[https://trac-b0.performoo.com/capture?action=resume&event=adtag&elapsedSeconds=[CONTENTPLAYHEAD]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]]]></Tracking>
+                            <Tracking event="skip"><![CDATA[https://trac-b0.performoo.com/capture?action=skip&event=adtag&elapsedSeconds=[CONTENTPLAYHEAD]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]]]></Tracking>
+                            <Tracking event="creativeView"><![CDATA[https://trac-b0.performoo.com/capture?action=creativeView&event=adtag&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&asset=[ASSETURL]&omid=[OMIDPARTNER]]]></Tracking>
                         </TrackingEvents>
+
                         <VideoClicks>
                             <ClickThrough id="123"><![CDATA[https://performoo.com]]></ClickThrough>
                             <ClickTracking id="123">
-                                <![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Clicked]]>
+                                <![CDATA[https://trac-b0.performoo.com/capture?action=Clicked&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&u_adid=[UNIVERSALADID]&mediaplayhead=[MEDIAPLAYHEAD]]]>
                             </ClickTracking>
                         </VideoClicks>
+
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" bitrate="500">
                                 <![CDATA[https://media-b.performoo.com/weather/ad.mp4]]>
