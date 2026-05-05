@@ -722,7 +722,8 @@ class Overlay extends BaseSimidCreative {
         const lat = 28.704060;
         const lon = 77.102493;
 
-        const data = await this.getHardcodedWeather(lat, lon);
+        // const data = await this.getHardcodedWeather(lat, lon);
+        const data = await this.getWeatherData(lat, lon);
         this.updateWeatherUI(data);
     }
 
@@ -737,6 +738,43 @@ class Overlay extends BaseSimidCreative {
             temperature: 31.2,
             unit: "°C",
             windSpeed: "6.8 km/h"
+        };
+    }
+
+        /**
+
+     {
+        "latitude": 28.717047,
+        "longitude": 77.054794,
+        "generationtime_ms": 0.019550323486328125,
+        "utc_offset_seconds": 19800,
+        "timezone": "Asia/Kolkata",
+        "timezone_abbreviation": "GMT+5:30",
+        "elevation": 221.0,
+        "current_units": {
+            "time": "iso8601",
+            "interval": "seconds",
+            "temperature_2m": "°C"
+        },
+        "current": {
+            "time": "2026-05-05T15:15",
+            "interval": 900,
+            "temperature_2m": 28.0
+        }
+    } 
+     */
+
+    async getWeatherData(lat, lon) {
+        const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m&timezone=auto`;
+        const response = await fetch(url);
+        const json = await response.json();
+        console.log(json);
+        
+
+        return {
+            temperature: json.current.temperature_2m,
+            unit: json.current_units.temperature_2m,
+            city: "Delhi"
         };
     }
 

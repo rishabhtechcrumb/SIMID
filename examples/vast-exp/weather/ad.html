@@ -730,7 +730,7 @@
                 const lat = 28.704060;
                 const lon = 77.102493;
 
-                const data = await this.getHardcodedWeather(lat, lon);
+                const data = await this.getWeatherData(lat, lon);
                 this.updateWeatherUI(data);
             }
 
@@ -745,6 +745,20 @@
                     temperature: 31.2,
                     unit: "°C",
                     windSpeed: "6.8 km/h"
+                };
+            }
+
+            async getWeatherData(lat, lon) {
+                const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=temperature_2m&timezone=auto`;
+                const response = await fetch(url);
+                const json = await response.json();
+                console.log(json);
+
+
+                return {
+                    temperature: json.current.temperature_2m,
+                    unit: json.current_units.temperature_2m,
+                    city: "Delhi"
                 };
             }
 
@@ -873,7 +887,7 @@
 
     <div class="bottom-strip">
         <div class="weather-section">
-            <div class="city" id="weather_city">Loading...</div>
+            <!-- <div class="city" id="weather_city">Loading...</div> -->
             <div class="temp" id="weather_temp">--°C</div>
         </div>
 
