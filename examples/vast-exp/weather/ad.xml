@@ -6,38 +6,38 @@
             <AdSystem>SampleAdSystem</AdSystem>
             <AdTitle>Linear SIMID Example</AdTitle>
             <Description>SIMID Linear Video Ad</Description>
-            <Error>https://www.example.com/error</Error>
-            <Impression>https://www.example.com/impression</Impression>
+            <Error>https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=aderror</Error>
+            <Impression>https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=impression</Impression>
             <Creatives>
                 <Creative sequence="1">
                     <Linear>
                         <Duration>00:00:52</Duration>
                         <TrackingEvents>
-                            <Tracking event="start">https://www.example.com/start</Tracking>
-                            <Tracking event="firstQuartile">https://www.example.com/firstQuartile</Tracking>
-                            <Tracking event="midpoint">https://www.example.com/midpoint</Tracking>
-                            <Tracking event="thirdQuartile">https://www.example.com/thirdQuartile</Tracking>
-                            <Tracking event="complete">https://www.example.com/complete</Tracking>
-                            <Tracking event="mute">https://www.example.com/mute</Tracking>
-                            <Tracking event="unmute">https://www.example.com/unmute</Tracking>
-                            <Tracking event="rewind">https://www.example.com/rewind</Tracking>
-                            <Tracking event="pause">https://www.example.com/pause</Tracking>
-                            <Tracking event="resume">https://www.example.com/resume</Tracking>
-                            <Tracking event="fullscreen">https://www.example.com/fullscreen</Tracking>
-                            <Tracking event="creativeView">https://www.example.com/creativeView</Tracking>
+                            <Tracking event="start">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=start</Tracking>
+                            <Tracking event="firstQuartile">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q1</Tracking>
+                            <Tracking event="midpoint">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q2</Tracking>
+                            <Tracking event="thirdQuartile">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q3</Tracking>
+                            <Tracking event="complete">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Complete</Tracking>
+                            <Tracking event="mute">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=mute</Tracking>
+                            <Tracking event="unmute">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=unmute</Tracking>
+                            <Tracking event="rewind">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=rewind</Tracking>
+                            <Tracking event="pause">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=pause</Tracking>
+                            <Tracking event="resume">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=resume</Tracking>
+                            <Tracking event="fullscreen">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=fullscreen</Tracking>
+                            <Tracking event="creativeView">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=creativeView</Tracking>
                             <Tracking event="acceptInvitation">
-                                https://www.example.com/acceptInvitation</Tracking>
+                                https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=acceptInvitation</Tracking>
                         </TrackingEvents>
                         <VideoClicks>
-                            <ClickThrough id="123">https://google.com</ClickThrough>
-                            <ClickTracking id="123">https://www.example.com/click</ClickTracking>
+                            <ClickThrough id="123">https://performoo.com</ClickThrough>
+                            <ClickTracking id="123">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Clicked</ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4">
-                                https://simid.pages.dev/examples/vast-exp/weather/ad.mp4 </MediaFile>
+                                https://media-b.performoo.com/weather/ad.mp4 </MediaFile>
                             <InteractiveCreativeFile type="text/html" apiFramework="SIMID"
                                 variableDuration="true">
-                                https://simid.pages.dev/examples/vast-exp/weather/ad.html </InteractiveCreativeFile>
+                                https://media-b.performoo.com/weather/ad.html </InteractiveCreativeFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
