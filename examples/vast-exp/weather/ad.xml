@@ -1,43 +1,48 @@
-<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
-    <script src="chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js" />
+<?xml version="1.0" encoding="UTF-8"?>
+<VAST xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
     <Ad id="1234567">
         <InLine>
             <AdSystem>SampleAdSystem</AdSystem>
             <AdTitle>Linear SIMID Example</AdTitle>
             <Description>SIMID Linear Video Ad</Description>
-            <Error>https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=aderror</Error>
-            <Impression>https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=impression</Impression>
+            <Error>
+                <![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=aderror]]>
+            </Error>
+            <Impression>
+                <![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=impression]]>
+            </Impression>
             <Creatives>
                 <Creative sequence="1">
                     <Linear>
                         <Duration>00:00:52</Duration>
                         <TrackingEvents>
-                            <Tracking event="start">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=start</Tracking>
-                            <Tracking event="firstQuartile">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q1</Tracking>
-                            <Tracking event="midpoint">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q2</Tracking>
-                            <Tracking event="thirdQuartile">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q3</Tracking>
-                            <Tracking event="complete">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Complete</Tracking>
-                            <Tracking event="mute">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=mute</Tracking>
-                            <Tracking event="unmute">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=unmute</Tracking>
-                            <Tracking event="rewind">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=rewind</Tracking>
-                            <Tracking event="pause">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=pause</Tracking>
-                            <Tracking event="resume">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=resume</Tracking>
-                            <Tracking event="fullscreen">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=fullscreen</Tracking>
-                            <Tracking event="creativeView">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=creativeView</Tracking>
-                            <Tracking event="acceptInvitation">
-                                https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=acceptInvitation</Tracking>
+                            <Tracking event="start"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=start]]></Tracking>
+                            <Tracking event="firstQuartile"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q1]]></Tracking>
+                            <Tracking event="midpoint"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q2]]></Tracking>
+                            <Tracking event="thirdQuartile"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=q3]]></Tracking>
+                            <Tracking event="complete"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Complete]]></Tracking>
+                            <Tracking event="mute"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=mute]]></Tracking>
+                            <Tracking event="unmute"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=unmute]]></Tracking>
+                            <Tracking event="rewind"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=rewind]]></Tracking>
+                            <Tracking event="pause"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=pause]]></Tracking>
+                            <Tracking event="resume"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=resume]]></Tracking>
+                            <Tracking event="fullscreen"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=fullscreen]]></Tracking>
+                            <Tracking event="creativeView"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=creativeView]]></Tracking>
+                            <Tracking event="acceptInvitation"><![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=acceptInvitation]]></Tracking>
                         </TrackingEvents>
                         <VideoClicks>
-                            <ClickThrough id="123">https://performoo.com</ClickThrough>
-                            <ClickTracking id="123">https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Clicked</ClickTracking>
+                            <ClickThrough id="123"><![CDATA[https://performoo.com]]></ClickThrough>
+                            <ClickTracking id="123">
+                                <![CDATA[https://trac-b.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srctype=vast&srcid=gtOZ6rPq6&tagid=guhaiuro4&labeltagid=&type=am&event=adtag&action=Clicked]]>
+                            </ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile delivery="progressive" type="video/mp4">
-                                https://media-b.performoo.com/weather/ad.mp4 </MediaFile>
-                            <InteractiveCreativeFile type="text/html" apiFramework="SIMID"
-                                variableDuration="true">
-                                https://media-b.performoo.com/weather/ad.html </InteractiveCreativeFile>
+                            <MediaFile delivery="progressive" type="video/mp4" width="1920" height="1080" bitrate="500">
+                                <![CDATA[https://media-b.performoo.com/weather/ad.mp4]]>
+                            </MediaFile>
+                            <InteractiveCreativeFile type="text/html" apiFramework="SIMID" variableDuration="true">
+                                <![CDATA[https://media-b.performoo.com/weather/ad.html]]>
+                            </InteractiveCreativeFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
