@@ -34,10 +34,10 @@
                         </VideoClicks>
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4">
-                                https://github.com/rishabhtechcrumb/SIMID/raw/refs/heads/master/examples/media/IAB.mp4 </MediaFile>
+                                https://simid.pages.dev/examples/media/IAB.mp4 </MediaFile>
                             <InteractiveCreativeFile type="text/html" apiFramework="SIMID"
                                 variableDuration="true">
-                                https://simid.pages.dev/examples/creatives/lband_overlay.html </InteractiveCreativeFile>
+                                https://simid.pages.dev/examples/creatives/weather_strip.html </InteractiveCreativeFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
