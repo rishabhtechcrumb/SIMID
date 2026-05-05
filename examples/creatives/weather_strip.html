@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMID Bottom Strip Ad</title>
+    <script src="weather_strip.js"></script>
+    
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        .bottom-strip {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 70px;
+            background: rgba(20, 20, 20, 0.9);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 20px;
+            box-sizing: border-box;
+            border-top: 1px solid #444;
+        }
+
+        .weather-section { line-height: 1.2; }
+        .city { font-size: 11px; color: #aaa; text-transform: uppercase; }
+        .temp { font-size: 18px; font-weight: bold; }
+
+        .controls-section { display: flex; gap: 10px; }
+        
+        button {
+            background: #333;
+            color: white;
+            border: 1px solid #555;
+            padding: 8px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        button:hover { background: #444; }
+
+        #skip_btn {
+            background: #d32f2f;
+            border: none;
+            font-weight: bold;
+        }
+
+        #skip_btn:hover { background: #b71c1c; }
+
+        .time-section { text-align: right; min-width: 60px; }
+        #time_indicator { font-family: monospace; font-size: 20px; }
+    </style>
+</head>
+<body>
+
+    <div class="bottom-strip">
+        <div class="weather-section">
+            <div class="city" id="weather_city">Loading...</div>
+            <div class="temp" id="weather_temp">--°C</div>
+        </div>
+
+        <div class="controls-section">
+            <button id="play_btn">Play</button>
+            <button id="pause_btn">Pause</button>
+            <button id="skip_btn">Skip Ad</button>
+        </div>
+
+        <div class="time-section">
+            <div id="time_indicator">00:00</div>
+        </div>
+    </div>
+
+</body>
+</html>

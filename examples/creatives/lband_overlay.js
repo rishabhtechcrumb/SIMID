@@ -29,6 +29,8 @@ class SimidOverlay extends BaseSimidCreative {
 }
 
 
+
+
 // The creative should first call ready
 const simidOverlay = new SimidOverlay();
 // This implementation is immediately ready but other creatives
