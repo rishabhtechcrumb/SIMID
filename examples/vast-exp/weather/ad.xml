@@ -34,10 +34,10 @@
                         </VideoClicks>
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4">
-                                ad.mp4 </MediaFile>
+                                https://simid.pages.dev/examples/vast-exp/weather/ad.mp4 </MediaFile>
                             <InteractiveCreativeFile type="text/html" apiFramework="SIMID"
                                 variableDuration="true">
-                                index.html </InteractiveCreativeFile>
+                                https://simid.pages.dev/examples/vast-exp/weather/ad.html </InteractiveCreativeFile>
                         </MediaFiles>
                     </Linear>
                 </Creative>
