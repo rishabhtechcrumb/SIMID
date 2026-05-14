@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMID Interactive Hotspots</title>
-    <script src="../simid_protocol.js"> </script>
 
-    <script src="base_simid_creative.js"> </script>
-
-    <script src="bumra_strip.js"> </script>
+    <script src="../simid_protocol.js"></script>
+    <script src="base_simid_creative.js"></script>
+    <script src="bumra_strip.js"></script>
 
     <style>
         body,
@@ -25,56 +24,41 @@
             position: relative;
             width: 100vw;
             height: 100vh;
-            /* Base Image */
-            background-image: url('https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2014,%202026,%2001_48_54%20PM.png');
+
+            background-image: url('https://cdn-temp.uppixl.com/pleased-cyan-mouse-emeline/img1%201.png');
             background-size: cover;
             background-position: center;
             transition: background-image 0.3s ease-in-out;
         }
 
-        /* The Hotspots */
         .hotspot {
             position: absolute;
             cursor: pointer;
             z-index: 10;
 
-            /* --- PLACEMENT TOOLS --- */
-            /* While placing: keep these visible */
-            /* After placing: Set opacity to 0 or remove background/border */
             border: 2px dashed yellow;
             background: rgba(255, 255, 255, 0.2);
-            /* opacity: 0;  <-- Uncomment this line to hide them completely */
         }
 
-        /* Adjust these values to position Box 1 */
         #box1 {
             top: 70%;
-            /* Distance from top */
             left: 77%;
-            /* Distance from left */
             width: 380px;
             height: 400px;
             opacity: 0;
         }
 
-        /* Adjust these values to position Box 2 */
         #box2 {
             top: 70%;
-            /* Distance from top */
             left: 54%;
-            /* Distance from left */
             width: 380px;
             height: 400px;
             opacity: 0;
-
         }
 
-        /* Adjust these values to position Box 2 */
         #box3 {
             top: 70%;
-            /* Distance from top */
             left: 33%;
-            /* Distance from left */
             width: 340px;
             height: 400px;
             opacity: 0;
@@ -92,12 +76,40 @@
 
     <script>
         const container = document.getElementById('ad-container');
-        const img1 = "https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2013,%202026,%2005_15_03%20PM.png";
-        const img2 = "https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2013,%202026,%2005_12_39%20PM.png";
-        const img3 = "https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2014,%202026,%2001_48_54%20PM.png";
 
+        const img1 = "https://cdn-temp.uppixl.com/pleased-cyan-mouse-emeline/img1%201.png";
+        const img2 = "https://cdn-temp.uppixl.com/pleased-cyan-mouse-emeline/img2%201.png";
+        const img3 = "https://cdn-temp.uppixl.com/pleased-cyan-mouse-emeline/img3%201.png";
+
+        const images = [img1, img2, img3];
+
+        // PRELOAD ALL IMAGES
+        function preloadImages(imageUrls) {
+            return Promise.all(
+                imageUrls.map((url) => {
+                    return new Promise((resolve, reject) => {
+                        const img = new Image();
+
+                        img.onload = () => resolve(url);
+                        img.onerror = () => reject(url);
+
+                        img.src = url;
+                    });
+                })
+            );
+        }
+
+        preloadImages(images)
+            .then(() => {
+                console.log("All images preloaded");
+            })
+            .catch((err) => {
+                console.error("Failed to preload:", err);
+            });
+
+        // HOTSPOT EVENTS
         document.getElementById('box1').addEventListener('click', () => {
-            container.style.backgroundImage = `url('${img1}')`;
+            container.style.backgroundImage = `url('${img3}')`;
         });
 
         document.getElementById('box2').addEventListener('click', () => {
@@ -105,7 +117,7 @@
         });
 
         document.getElementById('box3').addEventListener('click', () => {
-            container.style.backgroundImage = `url('${img3}')`;
+            container.style.backgroundImage = `url('${img1}')`;
         });
     </script>
 
