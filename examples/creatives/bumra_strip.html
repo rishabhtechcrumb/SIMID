@@ -2,8 +2,8 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMID Interactive Hotspots</title>
 
     <script src="../simid_protocol.js"></script>
@@ -18,21 +18,16 @@
             width: 100%;
             height: 100%;
             overflow: hidden;
-            background: #000;
         }
 
         #ad-container {
             position: relative;
-            width: 100%;
-            max-width: 1672px;
-            aspect-ratio: 1672 / 941;
-            margin: 0 auto;
+            width: 100vw;
+            height: 100vh;
 
             background-image: url('https://cdn-temp.uppixl.com/pleased-cyan-mouse-emeline/img1%201.png');
             background-size: cover;
             background-position: center;
-            background-repeat: no-repeat;
-
             transition: background-image 0.3s ease-in-out;
         }
 
@@ -43,29 +38,30 @@
 
             border: 2px dashed yellow;
             background: rgba(255, 255, 255, 0.2);
-
-            box-sizing: border-box;
-
-            width: 20.39%;
-            height: 31.67%;
-            top: 68.33%;
         }
 
-        /* Original */
+        #box1 {
+            top: 70%;
+            left: 77%;
+            width: 24%;
+            height: 30%;
+            /* opacity: 0; */
+        }
+
+        #box2 {
+            top: 70%;
+            left: 54%;
+            width: 22%;
+            height: 30%;
+            /* opacity: 0; */
+        }
+
         #box3 {
-            left: 32.95%;
-        }
-
-        /* Shifted right by one box width */
-        #box4 {
-            left: 53.34%;
-            /* 32.95 + 20.39 */
-        }
-
-        /* Shifted right again */
-        #box5 {
-            left: 73.73%;
-            /* 53.34 + 20.39 */
+            top: 70%;
+            left: 33%;
+            width: 20%;
+            height: 30%;
+            /* opacity: 0; */
         }
     </style>
 </head>
@@ -73,9 +69,9 @@
 <body>
 
     <div id="ad-container">
+        <div id="box1" class="hotspot"></div>
+        <div id="box2" class="hotspot"></div>
         <div id="box3" class="hotspot"></div>
-        <div id="box4" class="hotspot"></div>
-        <div id="box5" class="hotspot"></div>
     </div>
 
     <script>
@@ -111,16 +107,17 @@
                 console.error("Failed to preload:", err);
             });
 
-        document.getElementById('box3').addEventListener('click', () => {
-            container.style.backgroundImage = `url('${img1}')`;
+        // HOTSPOT EVENTS
+        document.getElementById('box1').addEventListener('click', () => {
+            container.style.backgroundImage = `url('${img3}')`;
         });
 
-        document.getElementById('box4').addEventListener('click', () => {
+        document.getElementById('box2').addEventListener('click', () => {
             container.style.backgroundImage = `url('${img2}')`;
         });
 
-        document.getElementById('box5').addEventListener('click', () => {
-            container.style.backgroundImage = `url('${img3}')`;
+        document.getElementById('box3').addEventListener('click', () => {
+            container.style.backgroundImage = `url('${img1}')`;
         });
     </script>
 
