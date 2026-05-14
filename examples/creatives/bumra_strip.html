@@ -4,97 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIMID Full Overlay Ad</title>
-    <script src="../simid_protocol.js"> </script>
-    <script src="base_simid_creative.js"> </script>
-    <script src="bumra_strip.js"> </script>
+    <title>SIMID Interactive Hotspots</title>
 
     <style>
-        body,
-        html {
+        body, html {
             margin: 0;
             padding: 0;
             width: 100%;
             height: 100%;
             overflow: hidden;
-            font-family: Arial, sans-serif;
         }
 
-        /* Full screen overlay image */
-        .full-screen-image {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('https://cdn-temp.uppixl.com/pleased-cyan-mouse-emeline/ChatGPT%20Image%20May%2013,%202026,%2005_12_39%20PM%201.png');
+        #ad-container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            /* Base Image */
+            background-image: url('https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2014,%202026,%2001_48_54%20PM.png');
             background-size: cover;
             background-position: center;
-            z-index: 1;
+            transition: background-image 0.3s ease-in-out;
         }
 
-        .bottom-strip {
+        /* The Hotspots */
+        .hotspot {
             position: absolute;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            height: 70px;
-            background: rgba(0, 0, 0, 0.6);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 0 40px; /* Increased padding since weather is gone */
-            box-sizing: border-box;
-            border-top: 1px solid rgba(255, 255, 255, 0.1);
-            z-index: 10;
-        }
-
-        .controls-section {
-            display: flex;
-            gap: 12px;
-        }
-
-        button {
-            background: rgba(255, 255, 255, 0.1);
-            color: white;
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            padding: 8px 18px;
-            border-radius: 4px;
             cursor: pointer;
-            font-size: 13px;
-            transition: background 0.2s;
+            z-index: 10;
+            
+            /* --- PLACEMENT TOOLS --- */
+            /* While placing: keep these visible */
+            /* After placing: Set opacity to 0 or remove background/border */
+            border: 2px dashed yellow; 
+            background: rgba(255, 255, 255, 0.2); 
+            /* opacity: 0;  <-- Uncomment this line to hide them completely */
         }
 
-        button:hover {
-            background: rgba(255, 255, 255, 0.2);
+        /* Adjust these values to position Box 1 */
+        #box1 {
+            top: 70%;   /* Distance from top */
+            left: 77%;  /* Distance from left */
+            width: 380px;
+            height: 400px;
+            opacity: 0;
         }
 
-        #skip_btn {
-            background: #d32f2f;
-            border: none;
-            font-weight: bold;
+        /* Adjust these values to position Box 2 */
+        #box2 {
+            top: 70%;   /* Distance from top */
+            left: 54%;  /* Distance from left */
+            width: 380px;
+            height: 400px;
+            opacity: 0;
+
         }
 
-        #skip_btn:hover {
-            background: #b71c1c;
-        }
-
-        .time-section {
-            text-align: right;
-        }
-
-        #time_indicator {
-            font-family: 'Courier New', Courier, monospace;
-            font-size: 22px;
-            font-weight: bold;
+          /* Adjust these values to position Box 2 */
+        #box3 {
+            top: 70%;   /* Distance from top */
+            left: 33%;  /* Distance from left */
+            width: 340px;
+            height: 400px;
+            opacity: 0;
         }
     </style>
 </head>
 
 <body>
 
-    <div class="full-screen-image"></div>
+    <div id="ad-container">
+        <div id="box1" class="hotspot"></div>
+        <div id="box2" class="hotspot"></div>
+        <div id="box3" class="hotspot"></div>
+    </div>
+
+    <script>
+        const container = document.getElementById('ad-container');
+        const img1 = "https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2013,%202026,%2005_15_03%20PM.png";
+        const img2 = "https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2013,%202026,%2005_12_39%20PM.png";
+        const img3 = "https://cdn-temp.uppixl.com/attractive-moccasin-termite-angelika/ChatGPT%20Image%20May%2014,%202026,%2001_48_54%20PM.png";
+
+        document.getElementById('box1').addEventListener('click', () => {
+            container.style.backgroundImage = `url('${img1}')`;
+        });
+
+        document.getElementById('box2').addEventListener('click', () => {
+            container.style.backgroundImage = `url('${img2}')`;
+        });
+
+        document.getElementById('box3').addEventListener('click', () => {
+            container.style.backgroundImage = `url('${img3}')`;
+        });
+    </script>
 
 </body>
 </html>
