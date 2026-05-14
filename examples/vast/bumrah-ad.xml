@@ -1,42 +1,67 @@
-<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="3.0">
     <script src="chrome-extension://hoklmmgfnpapgjgcpechhaamimifchmp/frame_ant/frame_ant.js" />
     <Ad id="1234567">
         <InLine>
             <AdSystem>SampleAdSystem</AdSystem>
             <AdTitle>Linear SIMID Example</AdTitle>
             <Description>SIMID Linear Video Ad</Description>
-            <Error>https://www.example.com/error</Error>
-            <Impression>https://www.example.com/impression</Impression>
+            <Error>
+                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=aderror&type=[ERRORCODE]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ts=[TIMESTAMP]&ua=[CLIENTUA]&asset=[ASSETURL]&latlon=[LATLON] ]]>
+            </Error>
+            <Impression>
+                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=impression&event=adtag&tagID=guhaiuro4&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ifa=[IFA]&latlon=[LATLON]&gdpr=[GDPRCONSENT]&limit_ad=[LIMITADTRACKING]&pos=[ADPOSITION] ]]>
+            </Impression>
             <Creatives>
                 <Creative sequence="1">
                     <Linear>
                         <Duration>00:01:55</Duration>
                         <TrackingEvents>
-                            <Tracking event="start">https://www.example.com/start</Tracking>
-                            <Tracking event="firstQuartile">https://www.example.com/firstQuartile</Tracking>
-                            <Tracking event="midpoint">https://www.example.com/midpoint</Tracking>
-                            <Tracking event="thirdQuartile">https://www.example.com/thirdQuartile</Tracking>
-                            <Tracking event="complete">https://www.example.com/complete</Tracking>
-                            <Tracking event="mute">https://www.example.com/mute</Tracking>
-                            <Tracking event="unmute">https://www.example.com/unmute</Tracking>
-                            <Tracking event="rewind">https://www.example.com/rewind</Tracking>
-                            <Tracking event="pause">https://www.example.com/pause</Tracking>
-                            <Tracking event="resume">https://www.example.com/resume</Tracking>
-                            <Tracking event="fullscreen">https://www.example.com/fullscreen</Tracking>
-                            <Tracking event="creativeView">https://www.example.com/creativeView</Tracking>
-                            <Tracking event="acceptInvitation">
-                                https://www.example.com/acceptInvitation</Tracking>
+                            <Tracking event="start">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=start&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&pod=[PODSEQUENCE]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=q1&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=q2&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=q3&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=Complete&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="mute">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?action=mute&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="unmute">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?action=unmute&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="pause">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?action=pause&elapsedSeconds=[CONTENTPLAYHEAD]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="resume">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?action=resume&elapsedSeconds=[CONTENTPLAYHEAD]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="skip">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?action=skip&elapsedSeconds=[CONTENTPLAYHEAD]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
+                            <Tracking event="creativeView">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?action=creativeView&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&asset=[ASSETURL]&omid=[OMIDPARTNER]&ts=[TIMESTAMP] ]]>
+                            </Tracking>
                         </TrackingEvents>
                         <VideoClicks>
-                            <ClickThrough id="123">https://google.com</ClickThrough>
-                            <ClickTracking id="123">https://www.example.com/click</ClickTracking>
+                            <ClickThrough id="123">
+                                <![CDATA[ https://performoo.com ]]>
+                            </ClickThrough>
+                            <ClickTracking id="123">
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=Clicked&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ts=[TIMESTAMP] ]]>
+                            </ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
                             <MediaFile delivery="progressive" type="video/mp4">
                                 https://media-b.performoo.com/lifewear/video.mp4 </MediaFile>
-                            <InteractiveCreativeFile type="text/html" apiFramework="SIMID"
-                                variableDuration="true">
+                            <InteractiveCreativeFile type="text/html" apiFramework="SIMID" variableDuration="true">
                                 https://media-b.performoo.com/lifewear/bumra_strip_final.html </InteractiveCreativeFile>
                         </MediaFiles>
                     </Linear>
