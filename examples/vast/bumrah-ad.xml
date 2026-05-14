@@ -14,7 +14,7 @@
             <Creatives>
                 <Creative sequence="1">
                     <Linear>
-                        <Duration>00:01:55</Duration>
+                        <Duration>00:00:20</Duration>
                         <TrackingEvents>
                             <Tracking event="start">
                                 <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=start&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&pod=[PODSEQUENCE]&ts=[TIMESTAMP] ]]>
