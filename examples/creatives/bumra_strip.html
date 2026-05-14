@@ -5,9 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>SIMID Interactive Hotspots</title>
+    <script src="../simid_protocol.js"> </script>
+
+    <script src="base_simid_creative.js"> </script>
+
+    <script src="bumra_strip.js"> </script>
 
     <style>
-        body, html {
+        body,
+        html {
             margin: 0;
             padding: 0;
             width: 100%;
@@ -31,19 +37,21 @@
             position: absolute;
             cursor: pointer;
             z-index: 10;
-            
+
             /* --- PLACEMENT TOOLS --- */
             /* While placing: keep these visible */
             /* After placing: Set opacity to 0 or remove background/border */
-            border: 2px dashed yellow; 
-            background: rgba(255, 255, 255, 0.2); 
+            border: 2px dashed yellow;
+            background: rgba(255, 255, 255, 0.2);
             /* opacity: 0;  <-- Uncomment this line to hide them completely */
         }
 
         /* Adjust these values to position Box 1 */
         #box1 {
-            top: 70%;   /* Distance from top */
-            left: 77%;  /* Distance from left */
+            top: 70%;
+            /* Distance from top */
+            left: 77%;
+            /* Distance from left */
             width: 380px;
             height: 400px;
             opacity: 0;
@@ -51,18 +59,22 @@
 
         /* Adjust these values to position Box 2 */
         #box2 {
-            top: 70%;   /* Distance from top */
-            left: 54%;  /* Distance from left */
+            top: 70%;
+            /* Distance from top */
+            left: 54%;
+            /* Distance from left */
             width: 380px;
             height: 400px;
             opacity: 0;
 
         }
 
-          /* Adjust these values to position Box 2 */
+        /* Adjust these values to position Box 2 */
         #box3 {
-            top: 70%;   /* Distance from top */
-            left: 33%;  /* Distance from left */
+            top: 70%;
+            /* Distance from top */
+            left: 33%;
+            /* Distance from left */
             width: 340px;
             height: 400px;
             opacity: 0;
@@ -98,4 +110,5 @@
     </script>
 
 </body>
+
 </html>
