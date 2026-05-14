@@ -6,10 +6,10 @@
             <AdTitle>Linear SIMID Example</AdTitle>
             <Description>SIMID Linear Video Ad</Description>
             <Error>
-                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=aderror&type=[ERRORCODE]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ts=[TIMESTAMP]&ua=[CLIENTUA]&asset=[ASSETURL]&latlon=[LATLON] ]]>
+                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=aderror&type=[ERRORCODE]&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ts=[TIMESTAMP]&ua=[CLIENTUA]&asset=[ASSETURL]&latlon=[LATLON] ]]>
             </Error>
             <Impression>
-                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=impression&event=adtag&tagID=guhaiuro4&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ifa=[IFA]&latlon=[LATLON]&gdpr=[GDPRCONSENT]&limit_ad=[LIMITADTRACKING]&pos=[ADPOSITION] ]]>
+                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=impression&event=adtag&tagID=guhaiuro4&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ifa=[IFA]&latlon=[LATLON]&gdpr=[GDPRCONSENT]&limit_ad=[LIMITADTRACKING]&pos=[ADPOSITION] ]]>
             </Impression>
             <Creatives>
                 <Creative sequence="1">
@@ -17,19 +17,19 @@
                         <Duration>00:00:20</Duration>
                         <TrackingEvents>
                             <Tracking event="start">
-                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=start&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&pod=[PODSEQUENCE]&ts=[TIMESTAMP] ]]>
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=start&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&pod=[PODSEQUENCE]&ts=[TIMESTAMP] ]]>
                             </Tracking>
                             <Tracking event="firstQuartile">
-                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=q1&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=q1&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
                             </Tracking>
                             <Tracking event="midpoint">
-                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=q2&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=q2&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
                             </Tracking>
                             <Tracking event="thirdQuartile">
-                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=q3&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=q3&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
                             </Tracking>
                             <Tracking event="complete">
-                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=Complete&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&ts=[TIMESTAMP] ]]>
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=Complete&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&ts=[TIMESTAMP] ]]>
                             </Tracking>
                             <Tracking event="mute">
                                 <![CDATA[ https://trac-b0.performoo.com/capture?action=mute&cacheBuster=[CACHEBUSTING]&purl=[PAGEURL]&ua=[CLIENTUA]&state=[PLAYERSTATE]&ts=[TIMESTAMP] ]]>
@@ -55,7 +55,7 @@
                                 <![CDATA[ https://performoo.com ]]>
                             </ClickThrough>
                             <ClickTracking id="123">
-                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpTeKFevePJ5FdBDfU+0oMS4NWGOFFb%2FTXnlArGxTHZn1S70rRGUYwmLpdykB3M3B%2Fr1HOMooqJfL8gOLXLpucoc%3D&srcid=gtOZ6rPq6&srctype=vast&action=Clicked&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ts=[TIMESTAMP] ]]>
+                                <![CDATA[ https://trac-b0.performoo.com/capture?ed=3BRsqtVZBLO+2W2QvZcRpc1IA/Zbe3bRucW47hqqOa0w+nn0UDwdr/0T/FzstZYcMwWw+XEj4+qR3CL4qif/URy5GtLxqqlUHTc43v2dqonAcQPPNXl6XjLa+oK92B14jCrCRrl1+HdEdWd1q6Iuo3JBV1l/uy+tjdJFCERGodc9pKglVQEGFxGfLwuwaVMOSZm9cPpgse00kRCFzZawpg==&srcid=gtOZ6rPq6&srctype=vast&action=Clicked&event=adtag&cacheBuster=[CACHEBUSTING]&elapsedSeconds=[CONTENTPLAYHEAD]&purl=[PAGEURL]&ua=[CLIENTUA]&u_adid=[UNIVERSALADID]&ts=[TIMESTAMP] ]]>
                             </ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
